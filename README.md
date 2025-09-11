@@ -37,4 +37,3 @@ The dataset used is **Telco Customer Churn** (`WA_Fn-UseC_-Telco-Customer-Churn.
 
 ---
 
-## 📂 Project Structure
