@@ -13,8 +13,11 @@ The goal is to identify **factors affecting customer churn** and estimate **surv
 
 ## 📊 Dataset
 The dataset used is **Telco Customer Churn** (`WA_Fn-UseC_-Telco-Customer-Churn.csv`), which contains:
-- 7043 customers
-- 21 columns (19 features + target variable `Churn`)
+- **Observations:** 7,043 customer records  
+- **Features:** 21 variables (19 predictors + 1 customer ID + target)  
+  - **Continuous variables:** `tenure`, `MonthlyCharges`, `TotalCharges`  
+  - **Categorical variables:** gender, Partner, Dependents, PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod  
+  - **Target variable:** `Churn` (Yes/No → converted to 1/0) 
 
 ---
 
